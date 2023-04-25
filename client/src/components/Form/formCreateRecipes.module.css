@@ -1,0 +1,98 @@
+.button3{
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(23, 122, 122);
+    font-size: 30px;
+    border: none;
+    margin-top: 1vw;
+    padding: 10px 15vw;
+    transition:0.50s;
+    border-radius:10px;
+}
+.button3:hover{
+    border-radius:0px;
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(23, 122, 122);
+    border: none;
+    margin-top: 1vw;
+    transition:0.50s;
+    padding: 10px 45.6vw;
+    font-size: 30.25px;
+}
+
+.link{
+    text-decoration: none;
+    color: #efe9e9;
+}
+
+.titulo{
+    color: rgb(6, 41, 41);
+    font-size:2em;
+    text-align: center;
+    margin-top: 1.5vw;
+    margin-bottom: 0.10em;
+}
+
+.form{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background:url("https://static.vecteezy.com/system/resources/previews/001/971/937/non_2x/kitchen-tools-pattern-seamless-background-free-vector.jpg");
+    width: 49vw;
+    height: 70vh;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:40px;
+}
+
+.label{
+    font-size:1.3vw;
+    text-align: center;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    color: rgb(6, 41, 41);
+}
+.labelDiets{
+    font-size:1vw;
+    text-align: center;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    color: rgb(6, 41, 41);
+}
+
+.input{
+    background: none;
+    width: 16vw;
+	height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.input2{
+    background: none;
+    width: 20vw;
+	height: 60px;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.button2 {
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(29, 42, 42);
+    font-size: 17px;
+    border: none;
+    padding: 7px 20px;
+    transition:0.25s;
+    border-radius:10px;
+    }
+  .button2:hover {
+  background-color: rgb(124, 179, 179);
+  transition:0.25s;
+  font-size: 17.25px;
+  }

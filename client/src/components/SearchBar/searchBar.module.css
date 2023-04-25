@@ -1,0 +1,98 @@
+.divBusqueda{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    width: 100vw;
+    background-color: rgb(23, 122, 122);
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input{
+    background: none;
+    width: 16vw;
+	height: 33px;
+    color: #000000;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.button{
+    width: 5vw;
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(29, 42, 42);
+    font-size: 17px;
+    border: none;
+    margin-left: 15px;
+    padding: 7px 20px;
+    transition:0.25s;
+    border-radius:10px;
+}
+.button:hover{
+    transition:0.25s;
+    font-size: 17.75px;
+    background-color: rgb(124, 179, 179);
+}
+
+.button2 {
+    width: 8vw;
+    margin: auto; display: block;
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(29, 42, 42);
+    font-size: 17px;
+    border: none;
+    padding: 7px 20px;
+    transition:0.25s;
+    border-radius:10px;
+    }
+  .button2:hover {
+  background-color: rgb(124, 179, 179);
+  transition:0.25s;
+  font-size: 17.25px;
+  }
+
+  .link{
+    text-decoration: none;
+    color: #efe9e9;
+  }
+
+
+.button3{
+    color: #efe9e9;
+    letter-spacing: 1px;
+    background-color: rgb(23, 122, 122);
+    font-size: 30px;
+    border: none;
+    margin: auto; display: block;
+    padding: 7px 20px;
+    transition:0.25s;
+    border-radius:10px;
+}
+.button3:hover{
+    font-size: 30.25px;
+}
+
+.customSelect {
+    margin :2px;
+    background-color: rgb(23, 122, 122);
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 16px;
+    color: #e8e0e0;
+    cursor: pointer;
+  }
+  
+  .customSelect:hover {
+    background-color: rgb(23, 122, 122);
+  }
+  
+  .customSelect option {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin: 0;
+  }

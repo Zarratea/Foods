@@ -1,0 +1,59 @@
+
+.divLanding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 45vh;
+    background:none;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.titulo{
+    font-family: "Lobster", cursive;
+    font-size: 70px;
+    color:rgb(23, 122, 122);
+    -webkit-text-stroke: 2px #000000
+
+}
+
+.subtitulo{
+    -webkit-text-stroke: 1px #dedede;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top:11px;
+    padding-bottom:11px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: rgb(77, 179, 179);
+    border-color: #100f0f;
+    border-radius:10px;
+    transition:0.25s;
+    }
+  .button:hover {
+  text-decoration: none;
+  background-color:rgb(23, 122, 122);
+  padding-top:11px;
+  padding-bottom:11px;
+  padding-left:30px;
+  padding-right:30px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+  }
+
+  .link{
+    color: azure;
+    text-decoration: none;
+  }

@@ -1,0 +1,16 @@
+body {
+  background: url('https://img.freepik.com/fotos-premium/preparacion-pasta-pasta-seca-e-ingredientes-tomates-albahaca-pimienta-romero-sobre-fondo-piedra-gris-pasta-seca-vista-superior-espacio-libre-texto_187166-29324.jpg?w=2000') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
