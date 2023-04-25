@@ -7,7 +7,7 @@ import styles from './searchBar.module.css'
 export default function SearchBar({setOrder, setCurrenPage}){
     const dispatch = useDispatch();
     const [name,setName]=useState('')
-
+    console.log(name);
     function handleFilterDiets(e){
         dispatch(filterRecipesByDiets(e.target.value))
     };
