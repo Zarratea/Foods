@@ -33,7 +33,7 @@ export default function DetailById () {
     }
     return (
         <div>
-           <Link to='/home' className={styles.link}><button className={styles.button3}>CocinaGPT</button> </Link>
+           <Link to='/home' className={styles.link}><button className={styles.button3}>CocinaHenry</button> </Link>
             {
                 aux?
                 <div className={styles.divFondo}> 

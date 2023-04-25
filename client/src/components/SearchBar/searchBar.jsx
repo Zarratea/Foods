@@ -49,7 +49,7 @@ export default function SearchBar({setOrder, setCurrenPage}){
             <input type='search' value={name} onChange={e => handleInput(e) } className={styles.input} />
             <button onClick={e => handleSubmit(e)} className={styles.button}>Buscar</button> 
             </div>
-            <button onClick={(e)=>handleReload(e)} className={styles.button3}>CocinaGPT</button>
+            <button onClick={(e)=>handleReload(e)} className={styles.button3}>CocinaHenry</button>
             <button className={styles.button2}><Link to='/createRecipe' className={styles.link} > Crear receta</Link></button> 
             </div>
             <div>

@@ -80,7 +80,7 @@ export default function FormCreate(){
 
     return(
         <div>
-            <Link to='/home' className={styles.link}><button className={styles.button3}>CocinaGPT</button> </Link>
+            <Link to='/home' className={styles.link}><button className={styles.button3}>CocinaHenry</button> </Link>
             <h1 className={styles.titulo}>Crea Tu Receta !</h1>
             <form onSubmit={(e)=>handleSubmit(e)} className={styles.form}>
                 <div>
