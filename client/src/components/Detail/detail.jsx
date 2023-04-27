@@ -23,12 +23,14 @@ export default function DetailById () {
         if (aux.diets) {
             aux.summary=aux.summary.replace(/<[^>]*>/g, "");
            dietsString=aux.diets.join(', ') 
+           console.log(aux.steps);
         }
     }else{
         aux=myRecipe
         if (aux.diets) {
             aux.summary=aux.summary.replace(/<[^>]*>/g, "");
             dietsString=aux.diets.join(', ') 
+            console.log(aux.steps);
          }
     }
     return (
@@ -52,7 +54,21 @@ export default function DetailById () {
                         <p className={styles.p}>{aux.summary}</p>
                     </div>
 
-
+                    {
+                        Array.isArray(aux.steps)? 
+                        <div>
+                            <ol>
+                                {aux.steps[0].map(el => {
+                                    return(
+                                        <li className={styles.p}>{el.step} </li>
+                                    )
+                                })}
+                            </ol>
+                        </div>:
+                       <div>
+                        <p className={styles.p}>{aux.steps}</p>
+                       </div>
+                    }
                 </div> : <p>asd</p>
             }
         </div>
