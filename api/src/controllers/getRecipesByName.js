@@ -4,8 +4,8 @@ const baseDatos = require('../controllers/baseDatos.js');
 const recipesApi=async () =>{
     const API_Key='?apiKey=f0aaf8f8aea846e2ad3a697e1a04c176';
     const URL='https://api.spoonacular.com/recipes/complexSearch';
-    //const response= await axios.get(`${URL}${API_Key}&addRecipeInformation=true&number=80`);
-    const response= await axios.get(`https://run.mocky.io/v3/84b3f19c-7642-4552-b69c-c53742badee5`);
+    const response= await axios.get(`${URL}${API_Key}&addRecipeInformation=true&number=80`);
+    //const response= await axios.get(`https://run.mocky.io/v3/84b3f19c-7642-4552-b69c-c53742badee5`);
     const recipe = await response.data.results.map(el => {
         const diets = el.diets;
         if (el.vegetarian === true) {
