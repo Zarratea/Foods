@@ -23,6 +23,7 @@ const getDiets= async (req,res) => {
             where:{name:el}
         });
     });
+    console.log(aux);
     const allDiets= await Diets.findAll();
     res.writeHead(200,{ "Content-Type": "application/json" });
     res.end(JSON.stringify(allDiets));
