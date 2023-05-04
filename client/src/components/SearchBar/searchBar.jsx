@@ -28,10 +28,12 @@ export default function SearchBar({setOrder, setCurrenPage}){
     };
     function handleInput(e){
         e.preventDefault();
+
         setName(e.target.value)
     };
     function handleSubmit(e){
         e.preventDefault();
+        setCurrenPage(1)
         dispatch(getName(name))
     };
     function handleReload(e){
